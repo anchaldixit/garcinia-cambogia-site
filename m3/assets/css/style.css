@@ -1,0 +1,393 @@
+
+#wrapper{
+    overflow-x: hidden; 
+}
+#wrapper > div{
+    width: 100%;
+    margin: 0 auto;
+}
+#section-2 img{
+    -webkit-transform: translate3d(0,0,0) rotate (0) scale (1)
+}
+h2, h3, p{
+    margin: 0px;
+    font-family: 'Open Sans', Arial;
+}
+p{
+    font-family: 'Open Sans', Arial;
+    font-size: 11px;
+}
+h2{
+    font-size: 17px;
+    padding-bottom: 2%;
+}
+h3{
+    font-size: 14px;
+    color: #0a7e01;
+    padding: 5% 0 2% 0;
+}
+h1 > span, h2 > span, h3 > span{
+    text-indent: -9999px;
+    position: absolute;
+}
+.after:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.img-full{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.container{
+    padding: 0 7%;
+}
+#cta{
+    width: 100%;
+    padding: 5% 0;
+    background: #37b500;
+    position: fixed;
+    bottom: 0%;
+    left: 0px;
+    z-index: 100;
+    transition: bottom 1s;
+}
+#cta a{
+    width: 85%;
+    background: #ffa200;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    padding: 4% 5%;
+    box-shadow: 0px 4px 0px 0px #ff8400;
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-align: right;
+}
+#cta a span{
+    font-family: 'Open Sans', Arial;
+    font-weight: bold;
+}
+#cta a:hover:active{
+    background: #ffcc00; 
+    top: 4px;
+    box-shadow: 0px 0px 0px 0px #ff8400;
+    text-decoration: none;
+}
+#cta a:hover:active:after{
+    content: '';    
+    background: #ffae00;
+}
+#cta a:after{
+    content: '';
+    background: #ff8400;
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+#cta .arrow{
+    width: 14%;
+    position: absolute;
+    padding: 5.1%;
+    top: 19%;
+    left: 0%;
+    z-index: 10;
+    animation: 1s arrow infinite;
+        -webkit-animation: 1s arrow infinite;
+            -moz-animation: 1s arrow infinite;
+                -ms-animation: 1s arrow infinite;
+}
+@keyframes arrow{
+    0%{
+        left: 0%;
+    }
+    50%{
+        left: 3%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+@-webkit-keyframes arrow{
+    0%{
+        left: 0%;
+    }
+    50%{
+        left: 3%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+@-moz-keyframes arrow{
+    0%{
+        left: 0%;
+    }
+    50%{
+        left: 3%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+@-ms-keyframes arrow{
+    0%{
+        left: 0%;
+    }
+    50%{
+        left: 3%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+img{
+    -webkit-transform:translateZ(0);
+    -webkit-backface-visibility:hidden;
+}
+.prod, .logo, .badge-img{
+    position: absolute;
+}
+#top{
+    position: relative;
+}
+#top .prod{
+    width: 45%;
+    top: 19%;
+    right: 0%;
+}
+#top .logo{
+    width: 38%;
+    top: 2%;
+    right: 14%;
+}
+#top .badge-img{
+    width: 22%;
+    top: 20%;
+    right: 31%;
+    z-index: 10;
+}
+#top .check-wrapper{
+    padding: 5% 0;
+    vertical-align: top;
+}
+#top .badge-wrapper{
+    padding-top: 4%;
+}
+#top .badge-wrapper{
+    width: 16%;
+    display: inline-block;
+}
+#top .badge-wrapper img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+#top .badge-wrapper .badge-icon{
+    opacity: 0;
+    position: relative;
+    top: 15px;
+}
+#top .check-wrapper{
+    width: 82%;
+    margin: 0 auto;
+}
+#top .check-wrapper .check{
+    margin-bottom: 5%;
+}
+#top .check-wrapper .check,
+#top .check-wrapper .exclusive{
+    opacity: 0;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+}
+#top .check-wrapper .check:first-child{
+    transition-delay: .5s;
+    -webkit-transition-delay: .5s;
+}
+#top .check-wrapper .check:nth-child(2){
+    transition-delay: .6s;
+    -webkit-transition-delay: .6s;
+}
+#top .check-wrapper .check:nth-child(3){
+    transition-delay: .7s;
+    -webkit-transition-delay: .7s;
+}
+#top .check-wrapper .check:nth-child(4){
+    transition-delay: .8s;
+    -webkit-transition-delay: .8s;
+}
+#top .check-wrapper img{
+    width: 100%;
+}
+#section-2 .scale{
+    padding: 4% 0;
+}
+#section-3 .step:last-child img{
+    display: none;
+}
+#section-3 .step img{
+    padding: 5% 0; 
+}
+#section-4 .container .results{
+    width: 90%;
+    padding: 2% 0 0 0;
+}
+#btm{
+    padding-top: 8%;
+    position: relative;
+}
+#btm .prod{
+    width: 50%;
+    top: 56%;
+    right: 0%;
+    z-index: 10;
+}
+#btm .logo{
+    width: 38%;
+    top: 32%;
+    right: 14%;
+    z-index: 10;
+}
+#btm .badge-img{
+    width: 26%;
+    top: 65%;
+    right: 32%;
+    z-index: 11;
+}
+#footer{
+    padding-top: 20%;
+}
+footer p{
+    padding: 5% 5% 0 5%;
+}
+footer a,
+footer a:hover,
+footer a:hover:active{
+    color: #000;
+}
+#downsell{
+    position: fixed;
+    top: 0px; left: 0px;
+    width: 100%; height: 100%;
+    z-index: 1000;
+    display: none;
+}
+#downsell .downsell-btn{
+    position: relative;
+    z-index: 1000;
+    width: 85%;
+    margin: 30% auto;
+    display: block;
+}
+#downsell .close-img{
+    width: 8%;
+    right: -4%;
+    top: -4%;
+    position: absolute;
+    z-index: 1002;
+}
+#downsell a img{
+    width: 100%;
+}
+#downsell a .prod{
+    width: 33%;
+    top: 43%;
+    right: 19%;
+}
+#downsell #overlay{
+    background: #000;
+    opacity: .7;
+    position: absolute;
+    top: 0px; left: 0px;
+    width: 100%;
+    height: 100%;
+}
+footer{
+    font-size: 10px;
+    padding: 0 0 10% 0;
+}
+@media (min-width: 360px), (min-width: 375){
+    p{
+        font-size: 12px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    #cta a{
+        font-size: 27px;
+    }
+}
+@media  (min-width: 384px){
+    p{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 17px;
+    }
+}
+@media (min-width: 414px){
+    #cta a{
+        font-size: 29px;
+    }
+}
+@media (min-width: 568px), (min-width: 640px){
+    p{
+        font-size: 21px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    #cta a{
+        font-size: 40px;
+    }
+}
+@media (min-width: 667px){
+    p{
+        font-size: 23px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 27px;
+    }
+    #cta a{
+        font-size: 47px;
+    }
+}
+@media (min-width: 736px){
+    p{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    h3{
+        font-size: 29px;
+    }
+    #cta a{
+        font-size: 50px;
+    }
+}
+
+
+

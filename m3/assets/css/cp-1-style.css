@@ -1,0 +1,136 @@
+body{
+    background: #fff;
+}
+#wrapper{
+    width: 320px;
+    margin: 0 auto;
+    font-family: 'Open Sans', helvetica;
+    position: relative;
+    overflow-x: hidden;
+}
+.after:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#hidden-banner{
+    padding: 20px 0px 20px 20px;
+    border-bottom: 2px solid #ffcb00;
+    border-top: 2px solid #ffcb00;
+    background: #e9e7e4;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    top: -1px;
+    width: 100%;
+    z-index: 3;
+    display: none;
+}
+#hidden-banner p{
+    position: relative;
+    color: #5a5a5a;
+    text-align: center;
+    line-height: 16px;
+    display: inline-block;
+}
+#steps-2{
+    width: 100%;
+}
+#approved{
+    padding: 10px 20px;
+    border-bottom: 1px solid #d6d6d6;
+    color: #5a5a5a;
+}
+#approved-content{
+    display: inline-block;
+    font-size: 11px;
+    line-height: 18px;
+    margin-left: 10px;
+}
+#approved-content h1{
+    font-size: 13px;
+    font-weight: bold;
+}
+#eye{
+    width: 7%;
+    position: relative;
+    margin-right: 2px;
+    top: 0px;
+}
+#banner img{
+    width: 100%;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+#form{
+    padding: 20px 20px 10px 20px;
+}
+#form  div{
+    margin-bottom: 10px;
+}
+form label{
+    font-size: 11.5px;
+    color: #5a5a5a;
+    display: block;
+}
+form select{
+    width: 96%;
+    height: 26px;
+    margin-top: 7px;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+input[type="text"], input[type="number"], input[type="tel"], input[type="email"]{
+    height: 26px;
+    padding: 3px 0 3px 7px;
+    border: 1px solid #929292;
+    margin-top: 7px;
+    font-style: normal;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+.w50{
+    width: 49%;
+}
+.n-input{
+    width: 96%;
+}
+.s-input{
+    width: 91%;
+}
+input[type="submit"]{
+    background: url(../images/cp-1-off-btn.jpg) no-repeat;
+    width: 85%;
+    margin: 0 7% 0 7%;
+    height: 50px;
+    background-size: 100%;
+    border: none;
+    text-indent: -9999px;
+    background-position: 0 0;
+    border-radius: 0px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-shadow: 0px 4px 0px 0px #ff8400;
+    position: relative;
+    top: 0px;
+}
+input[type="submit"]:active{
+    background: url(../images/cp-1-on-btn.jpg) no-repeat;
+    background-size: 100.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-shadow: 0px 0px 0px 0px #ff8400;
+    top: 4px;    
+}
+#btm{
+    margin-top: 20px;
+}
+#terms{
+    font-size: 11px;
+    line-height: 14px;
+    padding: 25px 20px 25px 20px;
+    color: #000;
+    text-align: justify;
+}

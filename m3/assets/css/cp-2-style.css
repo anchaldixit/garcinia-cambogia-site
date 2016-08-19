@@ -1,0 +1,236 @@
+body{
+    background: #fff;
+}
+#wrapper{
+    width: 320px;
+    margin: 0 auto;
+    font-family: 'Open Sans', helvetica;
+    overflow-x: hidden;
+}
+.blue-two{
+    color: #0083c9;
+}
+.red{
+    color: red;
+}
+.f11{
+    font-size: 11px;
+}
+.f12{
+    font-size: 12px;
+}
+#banner img{
+    width: 100%;
+}
+#banner{
+	position:relative;
+}
+#steps-1{
+    width: 100%;
+}
+#check{
+    width: 5%;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+#approved{
+    padding: 20px 20px 7px 20px;
+    border-bottom: 1px solid #d6d6d6;
+}
+#approved-content{
+    display: inline-block;
+    font-size: 13px;
+    line-height: 18px;
+    margin-left: 10px;
+    color: #5a5a5a;
+}
+#approved-content p{
+    margin-bottom: 13px;
+}
+#prod-info{
+    font-size: 11px;
+    line-height: 18px;
+    padding-bottom: 10px;
+}
+#prod-info p:first-child{
+    margin-bottom: 5px;
+}
+#form-info{
+    padding: 0px 20px 0 20px;   
+}
+#price-info{
+    font-size: 11px;
+    width: 60%;
+    position: relative;
+    top: 20px;
+}
+#price-info > div p{
+    line-height: 16px;
+}
+#prices{
+    clear: both;
+    border-top: 1px solid #dddcdc;
+    padding: 10px 10px 15px 0;
+}
+#price-info div > div:first-child{
+    position: relative;
+    left: 0px;
+    width: 100%;
+}
+#price-info div > div:nth-child(2),
+#price-info div > div:last-child{
+    width: 100%;
+}
+#price-info > div > div:first-child p:last-child,
+#price-info > div > div:nth-child(2) p:last-child{
+    padding-right: 16px;
+}
+#price-info > div > div:last-child p:last-child{
+    padding-right: 10px;
+}
+#bottle{
+    width: 41%;
+    position: relative;
+    top: 28px;
+    margin-left: -17px;
+}
+#submission-info{
+    clear: both;
+    padding-top: 20px;
+    position: relative;
+    z-index: 10;
+}
+#form{
+    padding: 13px 10px 0 10px;
+    border-top: 1px solid #dddcdc;
+}
+#shipping{
+    font-size: 10px;
+    padding-bottom: 3px;
+    display: inline-block;
+}
+#shipping label{
+    vertical-align: 25%;
+
+}
+#hidden-fields{
+    display: none;
+}
+#hidden-fields input[type="text"], #hidden-fields input[type="number"]{
+    margin-bottom: 8px;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+#hidden-fields select{
+    margin-bottom: 4px;
+    margin-top: 8px;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+#cards{
+    margin: 0 auto;
+    font-size: 12px;
+    padding: 0px 0px 0px 0;
+    color: #5a5a5a;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    text-align: right;
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0px;
+    margin-bottom: 0px !important;
+	width:98px;
+}
+#cards > img{
+   width:40%;
+    position: relative;
+}
+#form  div{
+    margin-bottom: 8px;
+}
+
+form label{
+    font-size: 11px;
+    color: #5a5a5a;
+    display: block;
+}
+form select{
+    width: 96%;
+    height: 26px;
+    margin-top: 7px;
+    padding-left: 7px;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+.n-input{
+    width: 96%;
+}
+.s-input{
+    width: 31%;
+    position: relative;
+    top: -5px !important;
+}
+.s-select{
+    width: 49%;
+}
+#cvv-img{
+    width: 64%;
+    position: relative;
+    top: 4px
+}
+input[type="text"], input[type="number"], input[type="tel"]{
+    height:26px;
+    padding: 3px 0 3px 7px;
+    border: 1px solid #929292;
+    margin-top: 7px;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+input[type="submit"]{
+    background: url(../images/cp-2-off-btn.jpg) no-repeat;
+    width: 90%;
+    height: 50px;
+    background-size: 100%;
+    border: none;
+    text-indent: -9999px;
+    background-position: 0 0;
+    display: block;
+    margin: 0 auto;
+    border-radius: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    position: relative;
+    top: 0px;
+    box-shadow: 0px 4px 0px 0px #ff8400;
+}
+input[type="submit"]:active:hover{
+    background: url(../images/cp-2-on-btn.jpg) no-repeat;
+    background-size: 100.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-shadow: 0px 0px 0px 0px #ff8400;
+    top: 4px;  
+}
+#secure{
+    width: 53%;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+#security{
+    width: 53%;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+#terms{
+    font-size: 10px;
+    line-height: 14px;
+    padding: 15px 20px 25px 20px;
+    color: #a5a5a5;
+    text-align: justify;
+}
+
